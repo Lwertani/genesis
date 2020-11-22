@@ -3,119 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genesis</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+    <title>Home</title>
 </head>
 <body>
     <header class="header">
-     <div class="logo">
-       <img src="images/Logog.svg" alt="logo">
-     </div>
-     <nav class="nav">
-         <ul class="nav__list">
-             <li class="nav__list"><a href="#">Project</a></li>
-             <li class="nav__list"><a href="#">Contact</a></li>
-         </ul>
-     </nav>
-    </header>
-
-    <main class="main">
-        <div class="part1">
-         <div class="information">
-            <h4 class="info1">Shooting Stars</h4>
-            <h1 class="info2">Hello, I’m Bakhtiyar Sattarov,
-                <span>product designer</span> with experience
-                in studios and startups</h1>
-         </div>
-         <div class="quote">
-            <p> <span class="model1">Des</span>ign is about progress </p>
-         </div>
-        </div>
-        <section class="balbum">
-          <div class="album">
-            <img class="p3" src="images/3.png" alt="sleep">
-            <img class="p1" src="images/1.png" alt="dance">
-            <img class="p2" src="images/2.png" alt="think">
-            <img class="p4" src="images/4.png" alt="sit">
-
-
-
-
-          </div>
-        </section>
-        <div class="minfo">
-            <div class="part1">
-                <h2>We love work hard and explore new things that’s why we cover lot of things.
-                     Check our service list and view details</h2>
+        <nav class="nav">
+            <div class="nav--left">
+                <img class="logo" src="images/logo.svg" alt="Genesis Logo">
             </div>
-            <div class="part2">
-                <ul>
+            <div class="nav--right">
+                <ul class="nav__list">
+                    <li class="nav__link"><a href="pages/project-details.html">Projects</a></li>
+                    <li class="nav__link"><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__info">
+            <div class="main__container">
+                <div class="container__info">
+                    <h2 class="main__title">Shooting Stars</h2>
+                    <p class="main__text">Hello, I’m Bakhtiyar Sattarov,
+                        <span class="product-designer">product designer</span> with experience
+                        in studios and startups
+                    </p>
+                </div>
+                <div class="container__quote">
+                    <p class="main__quote">
+                        ___ <br>
+                        Design is about progress
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="grid__position">
+            <div class="grid__container">
+                <div class= "grid__image-one column-left"><img src="images/1.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-two column-middle"><img src="images/2.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-three column-right"><img src="images/3.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-four column-left"><img src="images/4.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-five column-middle"><img src="images/5.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-six column-right"><img src="images/6.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-seven column-left"><img src="images/7.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-eight column-middle"><img src="images/8.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-nine column-right"><img src="images/9.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-ten column-left"><img src="images/10.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-eleven column-middle"><img src="images/11.png" alt="Portfolio Image"></div>
+                <div class= "grid__image-twelve column-right"><img src="images/12.png" alt="Portfolio Image"></div>
+            </div>
+        </section>
+        <section class="services__container" >
+            <div class="grid__services-container">
+                <div class="services__info">
+                    <p>We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</p>
+                </div>
+                <div class="services__list--middle">
                     <li>Multimedia</li>
                     <li>Interactive Design</li>
                     <li>Branding</li>
-                    <li>Creative design</li>
+                </div>
+                <div class="services__list--right">
+                    <li>Creative Design</li>
                     <li>Packaging</li>
                     <li>Coding</li>
-                </ul>
+                </div>
             </div>
-            <div class="table1">
-                <ul class="h1t1">
-                    <li>Awwwards</li>
-                    <li>Site of the day</li>
-                    <li>Genesis UI Kit
-                        <p>Application that helps to find 
-                            nearest sport centres
-                        </p>
-                    </li>
-                    <li>2018</li>
-                </ul>
-                <ul class="h2t1">
-                    <li>Best navigation</li>
-                    <li>Genesis Template
-                        <p>Application that helps to find nearest sport centres
-                            in your area</p>
-                    </li>
-                    <li>2018</li>
-                </ul>
+        </section>
+        <section class="awards__container">
+            <div class="grid__awards">
+                <div class="awards"><h3>Awwwards</h3></div>
+                <div class="awards__site"><h4>Site of the day</h4></div>
+                <div class="awards__ui"><h5>Genesis UI Kit</h5><p>Application that helps to find nearest sport centres
+                    in your area</p></div>
+                <div class="awards__date"><h5>2018</h5></div>
+                <div class="awards__best"><h4>Best navigation</h4></div>
+                <div class="awards__template"><h5>Genesis Template</h5> <p>Application that helps to find nearest sport centres
+                    in your area</p></div>
+                <div class="awards__date--two"><h5>2018</h5></div>
             </div>
-            
-            <div class="table2">
-                <ul class="h1t2">
-                    <li>CSSDesignAwards</li>
-                    <li>Site of the day</li>
-                    <li>Genesis UI Kit
-                        <p>Application that helps to find 
-                            nearest sport centres
-                        </p>
-                    </li>
-                    <li>2017</li>
-                </ul>
-                <ul class="h2t2">
-                    <li>Best navigation</li>
-                    <li>Genesis Template
-                        <p>Application that helps to
-                             find nearest sport centres
-                        </p>
-                    </li>
-                    <li>2016</li>
-                </ul>
+        </section>
+        <section class="awards__container">
+            <div class="grid__awards">
+                <div class="awards"><h3>CSSDesignAwards</h3></div>
+                <div class="awards__site"><h4>Site of the day</h4></div>
+                <div class="awards__ui"><h5>Genesis UI Kit</h5><p>Application that helps to find nearest sport centres
+                    in your area</p></div>
+                <div class="awards__date"><h5>2017</h5></div>
+                <div class="awards__best"><h4>Best navigation</h4></div>
+                <div class="awards__template"><h5>Genesis Template</h5> <p>Application that helps to find nearest sport centres
+                    in your area</p></div>
+                <div class="awards__date--two"><h5>2016</h5></div>
             </div>
-        </div>
-
-        <footer>
-            <img src="images/Logof.png" alt="logofooter">
-            <nav>
-                <ul>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                    <li> <img src="images/Social.svg" alt="social"> </li>
-                </ul>
-            </nav>
-        </footer>
+        </section>
     </main>
-
-
+    <footer class="footer">
+        <nav class="nav--footer">
+            <div class="nav--footer--left">
+                <img class="logo--footer" src="images/logo.svg" alt="Genesis Logo">
+            </div>
+            <div class="nav--footer--right">
+                <ul class="nav__list--footer">
+                    <li class="nav__link--footer"><a href="pages/project-details.html">Projects</a></li>
+                    <li class="nav__link--footer"><a href="pages/contact.html">Contact</a></li>
+                </ul>
+                <img class="social--footer" src="images/social.svg" alt="Social Media Logos">
+            </div>
+        </nav>
+    </footer>
+    
 </body>
 </html>
